@@ -7,8 +7,8 @@ $(document).ready(function() {
     $("body").removeClass();
     $("body").addClass("inverted-again");
   });
-  $("button#box").click(function() {
-    $("body").removeClass();
-    $("body").addClass("box-it-up");
+  $(".click-hidden").click(function() {
+    $("#box-hidden").toggle();
+    $("#box-show").toggle();
   });
 });
