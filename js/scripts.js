@@ -7,7 +7,7 @@ $(document).ready(function() {
     $("body").removeClass();
     $("body").addClass("inverted-again");
   });
-  $(".click-hidden").click(function() {
+  $(".click-show").click(function() {
     $("#box-hidden").toggle();
     $("#box-show").toggle();
   });
